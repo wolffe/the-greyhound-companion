@@ -1,0 +1,90 @@
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    letter-spacing: normal !important;
+    text-shadow: none !important;
+}
+
+#status-bar {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.dark .panel {
+    text-shadow: none;
+}
+.panel {
+    letter-spacing: normal;
+}
+
+.open-files-container {
+    max-height: 256px;
+    background: #282C34;
+}
+.open-files-container a {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.cw-tabbar,
+.main-view,
+.dark .main-view,
+.dark #status-bar,
+.dark #status-indicators,
+#status-bar,
+#main-toolbar,
+#status-indicators,
+#project-files-header,
+#project-files-container {
+    background-color: #21252B;
+}
+
+.dark #status-bar,
+#project-files-header {
+    border-top: 1px solid #181a1f;
+}
+#main-toolbar {
+    border-left: 1px solid #181a1f;
+}
+
+#project-files-header .btn-alt-quiet {
+    background: none;
+}
+
+.jstree-brackets li a,
+.jstree-brackets li a:hover {
+    font-size: 11px;
+}
+
+.main-view .sidebar {
+    border-right: 1px solid #181a1f;
+}
+.main-view .content {
+    left: 300px !important;
+}
+
+#working-set-list-container {
+    background: #282C34;
+}
+.working-set-header,
+.sidebar-selection,
+.filetree-selection,
+.sidebar-selection-extension,
+.filetree-selection-extension {
+    background: rgba(0, 0, 0, 0.15);
+}
+.working-set-header > span {
+    background: transparent;
+}
+
+.cm-comment .cm-tab {
+	border-left: 1px solid rgba(0,0,0,0) !important;
+	box-sizing: content-box !important;
+}
+.cm-tab {
+	border-left: 1px dotted rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+}
+.cm-s-dark-theme .cm-tab {
+	border-left: 1px dotted rgba(255, 255, 255, 0.24);
+}
