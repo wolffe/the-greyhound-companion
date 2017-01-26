@@ -88,3 +88,28 @@ body {
 .cm-s-dark-theme .cm-tab {
 	border-left: 1px dotted rgba(255, 255, 255, 0.24);
 }
+
+.dark .bottom-panel .toolbar {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.dark .bottom-panel .toolbar .title {
+    font-weight: 400;
+}
+.dark .bottom-panel {
+    background-color: #21252B;
+    border-top: 1px solid #181a1f;
+}
+.dark .btn {
+    background: none;
+    background-color: rgba(41, 128, 185, 0.5);
+    border-radius: 2px;
+}
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.btn-group > .btn:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
