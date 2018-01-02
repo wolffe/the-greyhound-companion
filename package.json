@@ -3,13 +3,22 @@
 	"title": "The Greyhound Companion",
 	"description": "Feature-rich companion extension for The Greyhound theme, extending the theme capabilities to other areas of the IDE.",
 	"homepage": "https://github.com/wolffe/the-greyhound-companion",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "wolffe (https://github.com/wolffe)",
 	"license": "GPLv3",
+	"engines": {
+		"brackets": ">=1.10.0"
+	},
 	"files": [
 		"main.css",
 		"main.js"
 	],
-    "contributors": ["wolffe"],
-	"keywords": ["theme"]
+	"contributors": ["wolffe"],
+	"keywords": [
+		"theme",
+		"theming",
+		"native",
+		"ui"
+	],
+	"categories": "ui"
 }
