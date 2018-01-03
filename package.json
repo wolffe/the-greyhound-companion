@@ -3,7 +3,7 @@
 	"title": "The Greyhound Companion",
 	"description": "Feature-rich companion extension for The Greyhound theme, extending the theme capabilities to other areas of the IDE.",
 	"homepage": "https://github.com/wolffe/the-greyhound-companion",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"author": "wolffe (https://github.com/wolffe)",
 	"license": "GPLv3",
 	"engines": {
