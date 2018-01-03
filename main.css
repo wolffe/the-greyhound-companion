@@ -60,7 +60,8 @@ body {
     border-right: 1px solid #181a1f;
 }
 .main-view .content {
-    left: 300px !important;
+    left: 300px;
+    border-left: 1px solid #181a1f;
 }
 
 #working-set-list-container {
