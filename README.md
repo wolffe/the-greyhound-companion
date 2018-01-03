@@ -2,6 +2,10 @@
 
 Feature-rich companion extension for **The Greyhound** theme, extending the theme capabilities to other areas of the IDE.
 
+= 0.0.5 =
+
+* FIX: Fixed sidebar resize
+
 = 0.0.4 =
 
 * FIX: Fixed extension compatibility with latest Adobe Brackets version
